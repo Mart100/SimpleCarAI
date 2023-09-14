@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wowies</title>
+  </head>
+  <body>
+    <canvas id="canvas"></canvas>
+    <script type="module" src="/src/main.ts"></script>
+    <div id="buttons">
+      <button id="gentrackbtn">Generate Track</button>
+      <button id="controlcarbtn">Control Car</button>
+      <button id="freeflybtn">Free Fly</button>
+      <button id="spawnbotbtn">Spawn Bot</button>
+      <button id="spawnaibtn">Spawn AI</button>
+      <button id="loadaibtn">Load AI</button>
+      <button id="startevobtn">Start Evolution</button>
+      <input type="range" min="1" max="100" value="10" class="slider" id="speedrange">
+    </div>
+    <div id="sidebuttons">
+      <button id="saveaibtn" style="display: none;">Save AI</button>
+    </div>
+    <span id="paused">PAUSED</span>
+  </body>
+</html>
